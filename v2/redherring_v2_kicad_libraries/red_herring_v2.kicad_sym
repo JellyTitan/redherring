@@ -87,12 +87,12 @@
       )
     )
     (symbol "SW_PUSH_LED_2_1"
-      (rectangle (start 3.81 -3.81) (end -3.81 3.81)
+      (rectangle (start -3.81 3.81) (end 3.81 -3.81)
         (stroke (width 0) (type default))
         (fill (type background))
       )
       (pin power_in line (at -5.08 2.54 0) (length 1.27) hide
-        (name "VDD" (effects (font (size 0.635 0.635))))
+        (name "VCC" (effects (font (size 0.635 0.635))))
         (number "1" (effects (font (size 0.635 0.635))))
       )
       (pin output line (at -5.08 -2.54 0) (length 1.27)

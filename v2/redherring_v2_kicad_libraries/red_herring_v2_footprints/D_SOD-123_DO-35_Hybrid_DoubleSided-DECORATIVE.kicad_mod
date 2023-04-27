@@ -1,0 +1,23 @@
+(footprint "D_SOD-123_DO-35_Hybrid_DoubleSided-DECORATIVE" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (descr "SOD-123")
+  (tags "SOD-123")
+  (attr smd)
+  (fp_text reference "REF**" (at 0 -2) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp d97d57e2-cd0c-47d9-a3a7-0038b4c66076)
+  )
+  (fp_text value "D_SOD-123_DO-35_Hybrid_DoubleSided-DECORATIVE" (at 0 2.1) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 5e5b7131-0e76-4006-8507-33b92ae014d6)
+  )
+  (pad "" thru_hole circle (at -3 0) (size 1.9 1.9) (drill 1.1) (layers "*.Cu" "*.Mask") (tstamp 3c04c53a-7051-4091-ab7a-ac3285b0ab84))
+  (pad "" np_thru_hole roundrect (at 0 0) (size 3.5 2) (drill oval 3.5 2) (layers "F&B.Cu" "*.Mask") (roundrect_rratio 0.5)
+    (thermal_bridge_angle 45) (tstamp 391e5255-54f2-4f87-b7be-2c61c5bde1a5))
+  (pad "" thru_hole circle (at 3 0) (size 1.9 1.9) (drill 1.1) (layers "*.Cu" "*.Mask") (tstamp 77d701d7-b747-4d8b-9d7a-4ff9d6690f0c))
+  (model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.wrl"
+    (offset (xyz 0 0 -1.75))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 180 0 0))
+  )
+)
